@@ -1,0 +1,26 @@
+.sv_q_text_root {
+    width: 50px;
+    
+}
+
+.question {
+    width: 60% !important;
+    max-width: 910px;
+    margin: auto;
+}
+
+.question div:nth-child(2) {
+    /* Block display is inlined for a classless div that surrounds the input */
+    display:flex !important;
+    justify-content:center;
+}
+
+.competency-desc {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sv_matrix_cell {
+    padding-right: 20px;
+    padding-bottom:20px;
+}

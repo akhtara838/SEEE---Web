@@ -1,0 +1,22 @@
+.nav-bar {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.nav-left, .nav-element {
+    display: flex;
+    align-items:center;
+}
+
+.nav-element p {
+    padding: 0 36px;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+

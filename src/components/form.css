@@ -1,0 +1,107 @@
+.entity-type-pick {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.entity-wrap a {
+    color: #e0e0e0;
+    padding: 12px;
+}
+
+.title-wrap {
+    width: 60%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border-top: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
+    max-width: 910px;
+    padding-top: 20px;
+}
+
+.big-title {
+    font-size: 72px
+}
+
+.sub-title {
+    padding-bottom: 20px;
+}
+
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+
+.root .sv_matrix_dynamic_button {
+    padding: 0em 2em;
+}
+
+.root tr {
+    height: 80px;
+}
+
+.root td,
+.root th {
+    /* padding: 0 0.1em; */
+    text-align: center;
+}
+
+.root td .sv_q_m_label {
+    /* Required because margin code for survey-react is inlined :/ */
+    margin: -10px 0px !important;
+}
+
+.root td:first-child {
+    text-align: right;
+    max-width:152px;
+}
+
+table th {
+    line-height: 1.3em;
+    padding: 1em;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.sv_custom_header {
+    /* required because overwriting table makes this header just a huge blob of color on top of the form */
+    height: 0px !important;
+}
+
+.sv_qstn fieldset {
+    display:flex;
+    justify-content: center;
+}
+
+.sv_q_title {
+    font-size: 18px;
+    text-align:center;
+}
+
+.sv_main .sv_body {
+    border-top: 0px;
+}
+
+.sv_nav {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #e0e0e0;
+    width: 60%;
+    margin: auto;
+    max-width: 910px;
+}
+
+.sv_main input.complete-button  {
+    /* color & background color is inlined in react-survey :/ */
+    color: #e0e0e0 !important;
+    background-color: #c7292a !important;
+    font-size: 18px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}

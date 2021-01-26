@@ -1,0 +1,27 @@
+.hero {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cta {
+    margin-top: 48px;
+}
+
+.cta-button {
+    background-color: #c7292a;
+    font-size: 18px;
+    color: #e0e0e0;
+    padding: 12px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor:pointer;
+    text-decoration: none;
+}

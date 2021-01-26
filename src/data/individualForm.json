@@ -1,0 +1,316 @@
+{
+    "questions": [
+        {
+            "type": "html",
+            "name": "leadership-title",
+            "html": "<div class='title-wrap'><div>COMPETENCY AREA:</div><div class='big-title'>LEADERSHIP</div><div class='sub-title'>This area focuses primarily on Systems Engineering professional competencies</div></div>"
+        },
+        {
+            "type": "matrix",
+            "name": "leadership-quality",
+            "title": "Rate your level of these Leadership competencies:",
+            "columns": [
+                {
+                    "value": 1,
+                    "text": "Awareness"
+                }, {
+                    "value": 2,
+                    "text": "Supervised Practioner"
+                }, {
+                    "value": 3,
+                    "text": "Practioner"
+                }, {
+                    "value": 4,
+                    "text": "Lead Practioner"
+                }, {
+                    "value": 5,
+                    "text": "Expert"
+                }
+            ],
+            "rows": [
+                {
+                    "value": "intelligence",
+                    "text": "Emotional Intelligence",
+                    "isRequired": true
+                }, {
+                    "value": "ethics",
+                    "text": "Ethics and Professionalism",
+                    "isRequired": true
+                }, {
+                    "value": "leaders",
+                    "text": "Technical Leadership",
+                    "isRequired": true
+                }, {
+                    "value": "thinking",
+                    "text": "Critical Thinking",
+                    "isRequired": true
+                }, {
+                    "value": "team",
+                    "text": "Team Dynamics",
+                    "isRequired": true
+                }, {
+                    "value": "use",
+                    "text": "Faciliation",
+                    "isRequired": true
+                }, {
+                    "value": "communicate",
+                    "text": "Communications",
+                    "isRequired": true
+                }, {
+                    "value": "negotiate",
+                    "text": "Negotiation",
+                    "isRequired": true
+                }, {
+                    "value": "coach",
+                    "text": "Coaching and Mentoring",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "type": "html",
+            "name": "quality-title",
+            "html": "<div class='title-wrap'><div>COMPETENCY AREA:</div><div class='big-title'>QUALITY</div><div class='sub-title'>Needs sub title</div></div>"
+        },
+        {
+            "type": "matrix",
+            "name": "understanding-quality",
+            "title": "Rate your level of these Understand competencies:",
+            "columns": [
+                {
+                    "value": 1,
+                    "text": "Awareness"
+                }, {
+                    "value": 2,
+                    "text": "Supervised Practioner"
+                }, {
+                    "value": 3,
+                    "text": "Practioner"
+                }, {
+                    "value": 4,
+                    "text": "Lead Practioner"
+                }, {
+                    "value": 5,
+                    "text": "Expert"
+                }
+            ],
+            "rows": [
+                {
+                    "value": "conceptual-models-and-abstractions",
+                    "text": "Conceptual Models & Abstractions",
+                    "isRequired": true
+                }, {
+                    "value": "complex-adaptive-systems",
+                    "text": "Complex Adaptive Systems",
+                    "isRequired": true
+                }, {
+                    "value": "system-identification-and-relationships",
+                    "text": "System Identification & Relationships",
+                    "isRequired": true
+                }, {
+                    "value": "system-dynamics",
+                    "text": "System Dynamics",
+                    "isRequired": true
+                }, {
+                    "value": "designing-experiments",
+                    "text": "Designing Experiments",
+                    "isRequired": true
+                }, {
+                    "value": "single-factor-experiments",
+                    "text": "Single Factor Experiments",
+                    "isRequired": true
+                }, {
+                    "value": "factorial-designs",
+                    "text": "Factorial Designs",
+                    "isRequired": true
+                }, {
+                    "value": "fractional-factorial-designs",
+                    "text": "Fractional Factorial Designs",
+                    "isRequired": true
+                }, {
+                    "value": "system-compulational-modeling-principles",
+                    "text": "System Computational Modeling Principles",
+                    "isRequired": true
+                }, {
+                    "value": "continuous-and-discrete-simulations",
+                    "text": "Coninuous & Discrete Simulations",
+                    "isRequired": true
+                }, {
+                    "value": "decision-making-central-and-distributed-fixed-vs-runtime",
+                    "text": "Decision Making: Central & Distributed, Fixed vs. Runtime",
+                    "isRequired": true
+                }, {
+                    "value": "evaluation-of-capability-effectiveness-and-efficiency",
+                    "text": "Evaluation of Capability, Effectiveness & Efficiency",
+                    "isRequired": true
+                }, {
+                    "value": "decision-making-principles",
+                    "text": "Decision-Making Principles",
+                    "isRequired": true
+                }, {
+                    "value": "data-analytics-and-visualization",
+                    "text": "Data Analytics & Visualization",
+                    "isRequired": true
+                }, {
+                    "value": "hm-interaction-ai-and-ml-techniques",
+                    "text": "H/M Interaction, AI & ML techniques",
+                    "isRequired": true
+                }, {
+                    "value": "uncertainty-and-risk-assessment",
+                    "text": "Uncertainty & Risk Assessment",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "type": "html",
+            "name": "design-title",
+            "html": "<div class='title-wrap'><div>COMPETENCY AREA:</div><div class='big-title'>DESIGN</div><div class='sub-title'>Needs sub title</div></div>"
+        },
+        {
+            "type": "matrix",
+            "name": "design-quality",
+            "title": "Rate your level of these Design competencies:",
+            "columns": [
+                {
+                    "value": 1,
+                    "text": "Awareness"
+                }, {
+                    "value": 2,
+                    "text": "Supervised Practioner"
+                }, {
+                    "value": 3,
+                    "text": "Practioner"
+                }, {
+                    "value": 4,
+                    "text": "Lead Practioner"
+                }, {
+                    "value": 5,
+                    "text": "Expert"
+                }
+            ],
+            "rows": [
+                {
+                    "value": "capability-engineering",
+                    "text": "Capability Engineering",
+                    "isRequired": true
+                }, {
+                    "value": "requirements-definition",
+                    "text": "Requirements Definition",
+                    "isRequired": true
+                }, {
+                    "value": "system-architecting",
+                    "text": "System Architecting",
+                    "isRequired": true
+                }, {
+                    "value": "design-for",
+                    "text": "Design for...",
+                    "isRequired": true
+                }, {
+                    "value": "interfaces",
+                    "text": "Interfaces",
+                    "isRequired": true
+                }, {
+                    "value": "integration",
+                    "text": "Integration",
+                    "isRequired": true
+                }, {
+                    "value": "verification",
+                    "text": "Verification",
+                    "isRequired": true
+                }, {
+                    "value": "validation",
+                    "text": "Validation",
+                    "isRequired": true
+                }, {
+                    "value": "transition",
+                    "text": "Transition",
+                    "isRequired": true
+                }, {
+                    "value": "operation-and-support",
+                    "text": "Operation and Support",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "type": "html",
+            "name": "realization-title",
+            "html": "<div class='title-wrap'><div>COMPETENCY AREA:</div><div class='big-title'>REALIZATION</div><div class='sub-title'>Needs sub title</div></div>"
+        },
+        {
+            "type": "matrix",
+            "name": "realization-quality",
+            "title": "Rate your level of these Realization competencies:",
+            "columns": [
+                {
+                    "value": 1,
+                    "text": "Awareness"
+                }, {
+                    "value": 2,
+                    "text": "Supervised Practioner"
+                }, {
+                    "value": 3,
+                    "text": "Practioner"
+                }, {
+                    "value": 4,
+                    "text": "Lead Practioner"
+                }, {
+                    "value": 5,
+                    "text": "Expert"
+                }
+            ],
+            "rows": [
+                {
+                    "value": "business-and-enterprise-integration",
+                    "text": "Business and Eterprise Integration",
+                    "isRequired": true
+                }, {
+                    "value": "finance",
+                    "text": "Finance",
+                    "isRequired": true
+                }, {
+                    "value": "lifecycles",
+                    "text": "Lifecycles",
+                    "isRequired": true
+                }, {
+                    "value": "project-management",
+                    "text": "Project Management",
+                    "isRequired": true
+                }, {
+                    "value": "planning",
+                    "text": "Planning",
+                    "isRequired": true
+                }, {
+                    "value": "concurrent-engineering",
+                    "text": "Concurrent Engineering",
+                    "isRequired": true
+                }, {
+                    "value": "risk-and-opportunity-management",
+                    "text": "Risk and Opportunity Management",
+                    "isRequired": true
+                }, {
+                    "value": "quality",
+                    "text": "Quality",
+                    "isRequired": true
+                }, {
+                    "value": "acquisition-and-supply",
+                    "text": "Acquisition and Supply",
+                    "isRequired": true
+                }, {
+                    "value": "information-management",
+                    "text": "Information Management",
+                    "isRequired": true
+                }, {
+                    "value": "configuration-management",
+                    "text": "Configuration Management",
+                    "isRequired": true
+                }, {
+                    "value": "logistics",
+                    "text": "Logistics",
+                    "isRequired": true
+                }
+            ]
+        }
+    ]
+}
